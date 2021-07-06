@@ -7,8 +7,8 @@ const countPendiente = (todo) => {
 	todo.forEach(function(elem) {
 		if (elem.completado === false) {
 			x += 1
-		taskCount.innerText = x
 		}
+		taskCount.innerText = x
 	});
 }
 
