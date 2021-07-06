@@ -8,8 +8,8 @@ const countPendiente = (todo) => {
 		if (elem.completado === false) {
 			x += 1
 		}
-		taskCount.innerText = x
 	});
+	taskCount.innerText = x
 }
 
 export class TaskList {
